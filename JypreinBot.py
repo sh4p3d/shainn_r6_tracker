@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+# -*- coding: utf-8
 from forex_python.converter import CurrencyRates
 import discord
 from discord.ext import commands
@@ -71,8 +73,8 @@ async def r6stats(ctx, username, platform):
     matchesPlayed = secondstats[15].string
     headshotAccuracy = secondstats[16].string
 
-    embed1=discord.Embed(title="Overall Stats", url=url, description="Best Mmr: " + bestmmr+"\nLevel: " + level +"\nAverage Seasonal Mmr: " + averageSeasonEnjoyer + "\nWin%: " + winRatio  + "\nKDRatio: " + KDRatio, color=0xFF5733)
-    embed1.set_author(name="R6 Stats", url=url, icon_url=ctx.author.avatar_url)
+    embed1=discord.Embed(title="Overall Stats", description="Best Mmr: " + bestmmr+"\nLevel: " + level +"\nAverage Seasonal Mmr: " + averageSeasonEnjoyer + "\nWin%: " + winRatio  + "\nKDRatio: " + KDRatio, color=0xFF5733)
+    embed1.set_author(name="R6 Stats", icon_url=ctx.author.avatar.url)
     await ctx.channel.send(embed=embed1)
     embed2 = discord.Embed(title="Other Stats(General)", description="\nWins: " + wins +  "\nKills: " + kills + "\nDeaths: " + deaths + "\nLosses" + loses + "\nTime Played: " + matchesPlayed + "\nHeadshot%: " + headshotAccuracy, color =0x5733FF)
     await ctx.send(embed=embed2)
