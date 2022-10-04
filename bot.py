@@ -10,8 +10,6 @@ TOKEN = f.read()
 f.close()
 prefix = '!'
 
-#ranked bilgileri alinacak
-
 r6StatsUrl ="https://r6.tracker.network/profile/pc/sh4p3.0507"
 bot = commands.Bot(command_prefix=prefix, intents = discord.Intents.all())
 
