@@ -1,13 +1,14 @@
 # ShainNs_R6s Tracker
 
-This is a discord bot which is coded and written by sh4p3.
+This is a discord bot which is coded by sh4p3.
+Owners of the bot are @sh4p3#2853 and @JypreinN#3489.
 
-Its abilities listed are following:
-- It can show the user's overall, general and ranked Rainbow Six Siege statistics.
-- It can show the bot's ping in ms.
-- It can convert the most popular currencies if the user writes them in ISO Code.
-- It can delete exact amount of messages when the !delete command is used.
+Prefix of the bot is "!".
+There are momentarily only two commands available:
 
-The bot is still in beta and i am still developing it and adding new features.
+!r6stats username (platform) [ranked] (if you want to get your ranked stats then type at the end ranked if not then just write the username and the platform.)
+This command gives your overall stats.If you type ranked at the end of the command then the bot gives you only the ranked statistics of yours.
 
+!ping
+You can check the ping of the bot with this command.
 All rights are reserved.
