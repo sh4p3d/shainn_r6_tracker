@@ -11,4 +11,4 @@ RUN python -m pip install forex_python
 RUN python -m pip install discord.py
 RUN python -m pip install requests
 
-CMD [ "python", "./JypreinBot.py" ]
+CMD [ "python", "./bot.py" ]

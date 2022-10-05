@@ -18,7 +18,7 @@ async def on_ready():
 
 @bot.command()
 async def ping(ctx):
-    await ctx.channel.send(f"Ping:{round(bot.latency * 1000)}")
+    await ctx.channel.send(f"Ping:{round(bot.latency * 1000)} ms")
 
 @bot.command()
 async def r6stats(ctx, username, platform="pc", ranked=""):
@@ -60,7 +60,7 @@ async def r6stats(ctx, username, platform="pc", ranked=""):
                 level = firststats[0].string
 
                 embed1=discord.Embed(title="Overall Stats", description="\nLevel: " + level + "\nWin%: " + winRatio  + "\nKDRatio: " + KDRatio, color=0xFF5733)
-                embed1.set_author(name="R6 Stats", icon_url=ctx.author.avatar_url)
+                embed1.set_author(name="R6 Stats", icon_url=ctx.author.avatar.url)
                 await ctx.channel.send(embed=embed1)
                 embed2 = discord.Embed(title="Other Stats(General)", description="\nWins: " + wins +  "\nKills: " + kills + "\nDeaths: " + deaths + "\nLosses" + loses + "\nTime Played: " + matchesPlayed + "\nHeadshot%: " + headshotAccuracy, color =0x5733FF)
                 await ctx.send(embed=embed2)
@@ -71,10 +71,10 @@ async def r6stats(ctx, username, platform="pc", ranked=""):
                 averageSeasonEnjoyer = firststats[2].string
 
                 embed1=discord.Embed(title="Overall Stats", description="Best Mmr: " + bestmmr+"\nLevel: " + level +"\nAverage Seasonal Mmr: " + averageSeasonEnjoyer + "\nWin%: " + winRatio  + "\nKDRatio: " + KDRatio, color=0xFF5733)
-                embed1.set_author(name="R6 Stats", icon_url=ctx.author.avatar_url)
+                embed1.set_author(name="R6 Stats", icon_url=ctx.author.avatar.url)
                 await ctx.channel.send(embed=embed1)
                 embed2 = discord.Embed(title="Other Stats(General)", description="\nWins: " + wins +  "\nKills: " + kills + "\nDeaths: " + deaths + "\nLosses" + loses + "\nTime Played: " + matchesPlayed + "\nHeadshot%: " + headshotAccuracy, color =0x5733FF)
                 await ctx.send(embed=embed2)
     except IndexError:
-        await ctx.channel.send("Please write in this format !r6stats {username} {(platform)} {(ranked)}\n It is not necessary to write platform and ranked")
+        await ctx.channel.send("Please write in the following format:\n!r6stats {username} {(platform)} {(ranked)}\nReminder:It is not necessary to write platform and ranked")
 bot.run(TOKEN)
