@@ -1,4 +1,4 @@
-# ShainNs_Bot
+# ShainNs_R6s Tracker
 
 This is a discord bot which is coded and written by sh4p3.
 
