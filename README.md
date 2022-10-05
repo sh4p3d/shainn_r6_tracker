@@ -11,4 +11,6 @@ This command gives your overall stats.If you type ranked at the end of the comma
 
 !ping
 You can check the ping of the bot with this command.
+
+
 All rights are reserved.
