@@ -15,6 +15,13 @@ bot = commands.Bot(command_prefix=prefix, intents = discord.Intents.all())
 @bot.event
 async def on_ready():
     print('logged in problemless as {0.user}'.format(bot))
+    totalservercount = 0
+    activeservers = bot.guilds
+    print("Active Servers\n ")
+    for guild in activeservers:
+        print(guild.name)
+        totalservercount += 1
+    print(f"Bot is in total at the moment in {totalservercount} servers")
 
 @bot.command()
 async def ping(ctx):
