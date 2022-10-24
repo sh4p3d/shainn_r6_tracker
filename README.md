@@ -13,5 +13,13 @@ This command gives your overall stats.If you type ranked at the end of the comma
 !ping
 You can check the ping of the bot with this command.
 
+!r6tweet
+This command gives you the latest tweet of the official Rainbow Six Siege Twitter Account.
+
+!help
+Gives all of the commands...
+
+!help {command}
+Tells what a specific command does.
 
 All rights are reserved.
