@@ -163,7 +163,7 @@ async def r6tweet(ctx):
 
 @bot.group(invoke_without_command=True)
 async def help(ctx):
-        embedHelp = discord.Embed(title="Help", description="!r6stats username (platform) [ranked]\n!ping")
+        embedHelp = discord.Embed(title="Help", description="!r6stats username (platform) [ranked]\n!ping\n!r6tweet\n!help {command}")
         await ctx.send(embed=embedHelp)
 @help.command()
 async def r6stats(ctx):
