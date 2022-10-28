@@ -13,7 +13,7 @@ r6StatsUrl ="https://r6.tracker.network/profile/pc/sh4p3.0507"
 bot = commands.Bot(command_prefix=prefix, intents = discord.Intents.all())
 bot.remove_command("help")
 
-r = redis.StrictRedis(host="localhost", port="2050", decode_responses=True)
+r = redis.StrictRedis(host="10.10.60.222", port="2050", decode_responses=True)
 
 api = twitterApi.twitterApi()
 
