@@ -1,0 +1,1 @@
+docker build -t rgs.tlax.de/coderanweb:latest . 
