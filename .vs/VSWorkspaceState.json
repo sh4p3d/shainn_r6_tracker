@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bot website",
+    "\\discord bot"
   ],
-  "SelectedNode": "\\bot.py",
+  "SelectedNode": "\\bot website",
   "PreviewInSolutionExplorer": false
 }
