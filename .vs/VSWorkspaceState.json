@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\website"
+    "\\bot",
+    "\\website",
+    "\\website\\css",
+    "\\website\\js"
   ],
+  "SelectedNode": "\\website\\js\\now-ui-kit.min.js",
   "PreviewInSolutionExplorer": false
 }
