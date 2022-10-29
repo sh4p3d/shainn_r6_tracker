@@ -3,9 +3,16 @@
     "",
     "\\bot",
     "\\website",
+<<<<<<< HEAD
+    "\\website\\css\\lato\\v23",
+    "\\website\\css\\montserrat\\v25"
+  ],
+  "SelectedNode": "\\website\\index.html",
+=======
     "\\website\\css",
     "\\website\\js"
   ],
-  "SelectedNode": "\\bot",
+  "SelectedNode": "\\website\\js\\now-ui-kit.min.js",
+>>>>>>> 89621b29c57649770ed6206aef908ada933d45d8
   "PreviewInSolutionExplorer": false
 }
