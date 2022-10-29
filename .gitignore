@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/shainn_r6_tracker/FileContentIndex/5e7b6385-4885-4456-8ecb-fbee941ef5f7.vsidx
+/.vs/shainn_r6_tracker/FileContentIndex
+/website/build.sh
