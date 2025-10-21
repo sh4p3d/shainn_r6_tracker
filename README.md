@@ -1,6 +1,6 @@
 # ShainNs_R6s Tracker
 
-This is a discord bot which is coded by sh4p3 in python.
+This is a discord bot which is developed by sh4p3 in python.
 Owners of the bot are @sh4p3#2853 and @JypreinN#3489.
 
 Prefix of the bot is "!".
