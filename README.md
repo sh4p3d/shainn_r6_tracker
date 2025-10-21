@@ -3,6 +3,8 @@
 This is a discord bot which is developed by sh4p3 in python.
 Owners of the bot are @sh4p3#2853 and @JypreinN#3489.
 
+In order to implement the code into your own bot write your own token in the TOKEN.txt
+
 Prefix of the bot is "!".
 There are momentarily only two commands available:
 
